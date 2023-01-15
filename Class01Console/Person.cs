@@ -18,5 +18,14 @@
             return $"Hello, My name is {FirstName} {LastName}";
         }
 
+        public string SayMyName(string firstName, string lastName)
+        {
+            return $"Hello This is {firstName} {lastName}";
+        }
+        public string SayMyName(string firstName)
+        {
+            return $"Hello I am {firstName}";
+        }
+
     }
 }

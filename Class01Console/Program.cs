@@ -35,6 +35,11 @@ var firstName = sodiq.FirstName;
 var lastName = sodiq.LastName;
 Console.WriteLine($"my name is {firstName} {lastName}");
 
+Console.WriteLine(ibrahim.SayMyName("Temitope", "Jubril"));
 
-string name = string.Empty;
+//string name = string.Empty;
 // datatype variableName = value
+
+Car car = new Car();
+//car.SaySomething();
+Car.SaySomething();
